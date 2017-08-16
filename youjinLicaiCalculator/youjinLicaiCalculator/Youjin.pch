@@ -1,0 +1,45 @@
+//
+//  Youjin.pch
+//  youjinLicaiCalculator
+//
+//  Created by 柚今科技01 on 2017/6/21.
+//  Copyright © 2017年 柚今科技01. All rights reserved.
+//
+
+#ifndef Youjin_pch
+#define Youjin_pch
+//接口
+//#define ISTEST
+#ifdef ISTEST
+#define BASEURL @"http://120.27.226.32/index_wx.php/" //测试url公网
+#define BASEWEBURl @"http://120.27.226.32/" //测试web网页地址
+#else
+#define BASEURL @"https://www.youjin360.com/index_wx.php/" //正式url内网
+#define BASEWEBURl @"https://www.youjin360.com/" //正式web网页地址
+#endif
+//token
+#define tokenString [[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"]
+//工具类
+#import "UIColor+Scale.h"
+#import "UIImage+UIColor.h"
+#import "UIScreen+Utilities.h"
+//第三方的类库
+#import <IQKeyboardManager.h>
+#import "AFNetworking.h"
+#import <MJExtension/MJExtension.h>
+#import "UMMobClick/MobClick.h"
+#import "BaiduMobStat.h"
+//主色调颜色
+#define mainColor [UIColor colorWithRed:245.0 / 255 green:245.0 / 255 blue:247.0 / 255 alpha:1]
+#define lineColor [UIColor colorWithRed:223.0 / 255 green:227.0 / 255 blue:230.0 / 255 alpha:1]
+//屏幕物理宽高
+#define BOScreenH [UIScreen mainScreen].bounds.size.height
+#define BOScreenW [UIScreen mainScreen].bounds.size.width
+//手机类型
+#define iPhone7P (BOScreenH == 1080)
+#define iPhone7 (BOScreenH == 750)
+#define iPhone6P (BOScreenH == 736)
+#define iPhone6 (BOScreenH == 667)
+#define iPhone5 (BOScreenH == 568)
+#define iPhone4 (BOScreenH == 480)
+#endif /* Youjin_pch */

@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMobStat (4.5.0)
+  - IQKeyboardManager (4.0.10)
+  - MJExtension (3.0.13)
+  - MOBFoundation (3.0.0)
+  - MobLink (2.0.0):
+    - MOBFoundation
+  - ShareSDK3 (4.0.0.1):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.0.1)
+  - ShareSDK3/ShareSDK (4.0.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (4.0.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (4.0.0.1):
+    - MOBFoundation
+  - SMSSDK (3.0.1):
+    - MOBFoundation
+  - UMengAnalytics (4.2.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BaiduMobStat
+  - IQKeyboardManager
+  - MJExtension (~> 3.0.13)
+  - MobLink (~> 2.0.0)
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - SMSSDK
+  - UMengAnalytics
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMobStat: 404e5d87147428dd5baf0912c5b95647b8a25367
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MOBFoundation: e6572a62983a44fa048c4038842ade1494c10059
+  MobLink: 86c9d4f1351344eae26738d755f210a9c580724b
+  ShareSDK3: e0465c9ffdf806ab97c27f4397fd7deca600ede9
+  SMSSDK: a811c8ea6e89393097037b7cf6493248a40e50f0
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+
+PODFILE CHECKSUM: 3585f79bb156d8fc6e15489beed117dbcf15eed3
+
+COCOAPODS: 1.2.0
